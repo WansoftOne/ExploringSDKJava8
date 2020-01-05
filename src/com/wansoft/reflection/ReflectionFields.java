@@ -4,6 +4,7 @@ import java.lang.reflect.Field;
 
 import com.wansoft.entity.Shirt;
 
+@SuppressWarnings("unused")
 public class ReflectionFields {
 	
 	public static void main(String[] args) {
