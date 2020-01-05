@@ -5,6 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 
 import com.wansoft.entity.Shirt;
 
+@SuppressWarnings("unused")
 public class ReflectionConstructor {
 
 	public static void main(String[] args) {
