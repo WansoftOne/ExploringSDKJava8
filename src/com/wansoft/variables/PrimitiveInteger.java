@@ -32,16 +32,6 @@ public class PrimitiveInteger {
 		System.out.println("Max value: " + Short.MAX_VALUE + "\n"); //32767
 		
 		/**
-		 * char information
-		 */
-		System.out.println("char information");
-		System.out.println("bits type char: " + Character.SIZE); // 16bits
-		System.out.println("bytes type char: " + Character.BYTES);// 2 bytes
-		System.out.println("Min value: " + Character.MIN_VALUE);
-		System.out.println("Max value: " + Character.MAX_VALUE + "\n");	
-		
-		
-		/**
 		 * Int information
 		 */
 		int intVar = 2147483647;
@@ -60,5 +50,21 @@ public class PrimitiveInteger {
 		System.out.println("bytes type long: " + Long.BYTES);// 8 bytes
 		System.out.println("Min value: " + Long.MIN_VALUE); // -9223372036854775808
 		System.out.println("Max value: " + Long.MAX_VALUE + "\n"); // 9223372036854775807
+		
+		/**
+		 * char information
+		 */
+		System.out.println("char information");
+		System.out.println("bits type char: " + Character.SIZE); // 16bits
+		System.out.println("bytes type char: " + Character.BYTES);// 2 bytes
+		System.out.println("Min value: " + Character.MIN_VALUE);
+		System.out.println("Max value: " + Character.MAX_VALUE + "\n");	
+		
+		char charVar = '!';
+		char charVarUnicode = '\u0021';
+		char charVarDecimal = 33;
+		System.out.println(charVar);
+		System.out.println(charVarUnicode);
+		System.out.println(charVarDecimal);
 	}
 }
